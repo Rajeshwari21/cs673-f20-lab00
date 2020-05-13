@@ -65,7 +65,7 @@
    When `n = 3, k = 0`: This is impossible because `n = 3` (`|n1 - n2|` can get as small as 1, but not 0). The answer is 0.  
    When `n = 4, k = 0`: This means we must have two heads and two tails. Out of sixteen (equiprobable) outcomes, there are six such outcomes, and the answer is 6/16 = 0.375.   
    When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.  
-   When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 10/32 = 0.3125 is the answer.
+   When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 20/32 = 0.625 is the answer.
 - Implementations and Tests
 
 
