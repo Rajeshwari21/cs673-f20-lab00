@@ -55,9 +55,17 @@
 ### Task 4: Probability
 - Description
   
-   
+   Suppose that you have `2n` fair coins, which you toss at the same time. Let `n1` be the number of coins with heads and `n2 = n - n1` be the number of coins with tails.
+   Let `p(k)` be the probability that `|n1 - n2| = k`.
+   Calculate this probability, given `n` and `k` (assume `0 <= k <= n <= 20`).
    
 - Examples
+
+   When `n = 2, k = 0`: TBA  
+   When `n = 3, k = 0`: TBA  
+   When `n = 4, k = 0`: TBA  
+   When `n = 4, k = 2`: TBA  
+   When `n = 5, k = 1`: TBA  
 - Implementations and Tests
 
 
