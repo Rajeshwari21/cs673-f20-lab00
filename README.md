@@ -44,7 +44,7 @@
 - Examples
    
    When `n = 1`: There are two students, say `A` and `B`. We can divide them into `[A]` and `[B]` (hence, the answer is 1).  
-   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3.  
+   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3. (Note that `[A, C] vs [B, D]` and `[B, D] vs [A, C]` would be the same split, so it's counted only once.)  
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
@@ -54,6 +54,9 @@
 
 ### Task 4: Probability
 - Description
+  
+   
+   
 - Examples
 - Implementations and Tests
 
