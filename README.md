@@ -8,6 +8,10 @@
 
 # Topics from Discrete Math
 
+Below, you will find two textbook references (DS and MCS), which are freely available online.
+
+You do NOT have to read the entire textbooks, but you will find the following references useful.
+
 - Mathematical Proofs
   - Direct Proof 
     - Reference (DS): Claim 2.1
