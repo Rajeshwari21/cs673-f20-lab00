@@ -1,5 +1,5 @@
 # Coding Exercises
- - Task 1: Climbing Stairs
+ - **Task 1: Climbing Stairs**
    - Description
    
       Let's say you need to climb a staircase that has `n` steps (`n >= 1`).  
@@ -12,10 +12,11 @@
        When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.  
        When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
    - Implementations and Tests
-     - In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods, which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`). 
-     - Try to solve this problem once iteratively and once recursively.
-     - In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).
-     - Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+   
+       In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods, which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+       Try to solve this problem once iteratively and once recursively.  
+       In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+       Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
  - Task 2: Counting Inversions
  - Task 3: Counting (combinatorics)
  - Task 4: Probability
