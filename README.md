@@ -1,9 +1,8 @@
 # Coding Exercises
- - Stairs
- - Counting Inversions
- - Counting (combinatorics)
- - Probability
- - Job Scheduling
+ - Task 1: Stairs
+ - Task 2: Counting Inversions
+ - Task 3: Counting (combinatorics)
+ - Task 4: Probability
 
 
 # References (Discrete Math)
