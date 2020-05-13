@@ -10,8 +10,7 @@
 
 Below, you will find two (textbook) references (DS and MCS), which are freely available online.
 
-You do NOT have to read the entire references, but you will find them useful for preparing for CS673.
-
+You do NOT have to read the entire references, but you will find them useful in preparation for taking CS673.
 
 - Mathematical Proofs
   - Direct Proof 
