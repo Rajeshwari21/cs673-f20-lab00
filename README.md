@@ -1,9 +1,9 @@
 # Coding Exercises
- - Job Scheduling
- - Counting Inversions
  - Stairs
+ - Counting Inversions
  - Counting (combinatorics)
  - Probability
+ - Job Scheduling
 
 
 # References (Discrete Math)
