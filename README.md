@@ -17,7 +17,7 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
 - Implementations and Tests
 
-   In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods (`getNumberOfWaysRecursive()` and `getNumberOfWaysIterative()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+   In [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/), you'll find two blank methods (`getNumberOfWaysRecursive()` and `getNumberOfWaysIterative()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
    Try to solve this problem once iteratively and once recursively.  
    In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
