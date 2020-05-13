@@ -1,16 +1,79 @@
-# Topics from Data Structures
-- Sorting Algorithms
-  - Merge Sort
-  - Quicksort
-- Recursion
-  - Binary Search
-  - Fibonacci Number
+### Task 1: Climbing Steps
+- Description
 
-# Topics from Discrete Math
+   Let's say you need to climb a staircase that has `n` steps (`n >= 1`).  
+   You can climb either 1 step or 2 steps at a time.  
+   You're wondering in how many different ways you can climb up the `n` steps to the top.  
+- Examples
 
-Below, you will find two textbook references (DS and MCS), which are freely available online.
+   When `n = 1`: You can take 1 step to reach the top, and the answer is 1.  
+   When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.  
+   When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.  
+   When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
+- Implementations and Tests
 
-You do NOT have to read the entire textbooks, but you will find the following references useful.
+   In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods (`getNumberOfWaysRecursive()` and `getNumberOfWaysIterative()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+   Try to solve this problem once iteratively and once recursively.  
+   In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+   Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+
+### Task 2: Inversions
+- Description
+   You are given an array `A` of `n` *distinct* integers (`1 <= n <= 100`).  
+   An *inversion* is a pair of indices (i, j) where (i < j) and `A[i] > A[j]` are both true (with `0 <= i, j, < n`, using 0-based index).  
+   Given `A` as input, write a method that counts and returns the number of inversions in `A`.
+
+- Examples
+
+  When `A = [1, 2, 3]`: There are no inversions. The answer is 0.  
+  When `A = [20, 10]`: There is one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.  
+  When `A = [20, 10, 30]`: There is still one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.  
+  When `A = [30, 20, 10]`: There are three inversions: `(0, 1)`, `(0, 2)`, and `(1, 2)`.
+
+- Implementations and Tests
+   In `Task2.java` (under `edu.usfca.cs673` package), you'll find a blank method, which should return the correct answer, given an array of distinct integers.
+   Try to solve this problem with an efficient algorithm.
+   In `TestTask2.java` you'll find a few unit tests which you can utilize to check correctness of your solution.
+
+### Task 3: Counting
+- Description
+  
+   Suppose we have `2n` students in a class, and we need to divide them into two teams of `n` students each (for a friendly match between the teams).  
+   In how many different ways can we divide them into two teams of the same size?
+
+- Examples
+   
+   When `n = 1`: There are two students, say `A` and `B`. We can divide them into `[A]` and `[B]` (hence, the answer is 1).  
+   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3. (Note that `[A, C] vs [B, D]` and `[B, D] vs [A, C]` would be the same split, so it's counted only once.)  
+   When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
+- Implementations and Tests
+
+   In `Task3.java`, you'll find a  method (`getNumberOfTeamFormations()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 30`).  
+   In `TestTask3.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+   Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+
+### Task 4: Probability
+- Description
+  
+   Suppose that you have `n` [fair coins](https://en.wikipedia.org/wiki/Fair_coin), which you toss at the same time. Let `n1` be the number of coins with heads and `n2 = n - n1` be the number of coins with tails.
+   Let `p(k)` be the probability that `|n1 - n2| = k`.
+   Calculate this probability, given `n` and `k` (assume `0 <= k <= n <= 20`).
+   
+- Examples
+
+   When `n = 2, k = 0`: As `k = 0`, we must have one head and one tail. Out of four (equiprobable) outcomes (`HH`, `HT`, `TH`, `TT`), there are two such outcomes -- the answer is 0.5.  
+   When `n = 3, k = 0`: This is impossible because `n = 3` (`|n1 - n2|` can get as small as 1, but not 0). The answer is 0.  
+   When `n = 4, k = 0`: This means we must have two heads and two tails. Out of sixteen (equiprobable) outcomes, there are six such outcomes, and the answer is 6/16 = 0.375.   
+   When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.  
+   When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 20/32 = 0.625 is the answer.
+- Implementations and Tests
+
+
+# References (Discrete Math)
+
+Below, you will find two (textbook) references (DS and MCS), which are **available online** and **for free**.
+
+You do NOT have to read the entire references, but you will find them useful in preparation for taking CS673.
 
 - Mathematical Proofs
   - Direct Proof 
