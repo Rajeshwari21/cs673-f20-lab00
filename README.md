@@ -34,14 +34,28 @@
    In `Task2.java` (under `edu.usfca.cs673` package), you'll find a blank method, which should return the correct answer, given an array of distinct integers.
    Try to solve this problem with an efficient algorithm.
    In `TestTask2.java` you'll find a few unit tests which you can utilize to check correctness of your solution.
- - Task 3: Counting (combinatorics)
-   - Description
-   - Examples
-   - Implementations and Tests
- - Task 4: Probability
-   - Description
-   - Examples
-   - Implementations and Tests
+
+### Task 3: Counting
+- Description
+  
+   Suppose we have `2n` students in a class, and we need to divide them into two teams of `n` students each (for a friendly match between the teams).  
+   In how many different ways can we divide them into two teams of the same size?
+
+- Examples
+   
+   When `n = 1`: There are two students, say `A` and `B`. We can divide them into `[A]` and `[B]` (hence, the answer is 1).
+   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3.
+   When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
+- Implementations and Tests
+
+   In `Task3.java`, you'll find a  method (`getNumberOfNiceBinaryStrings()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+   In `TestTask3.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+   Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+
+### Task 4: Probability
+- Description
+- Examples
+- Implementations and Tests
 
 
 # References (Discrete Math)
