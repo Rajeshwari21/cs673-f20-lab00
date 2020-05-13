@@ -7,19 +7,41 @@
       You're wondering in how many different ways you can climb up the `n` steps to the top.  
    - Examples
    
-       When `n = 1`: You can take 1 step to reach the top, and the answer is 1.  
-       When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.  
-       When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.  
-       When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
+      When `n = 1`: You can take 1 step to reach the top, and the answer is 1.  
+      When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.  
+      When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.  
+      When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
    - Implementations and Tests
    
-       In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods, which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
-       Try to solve this problem once iteratively and once recursively.  
-       In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
-       Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+      In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods, which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+      Try to solve this problem once iteratively and once recursively.  
+      In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+      Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
  - Task 2: Counting Inversions
+   - Description
+      You are given an array `A` of `n` *distinct* integers (`1 <= n <= 100`).  
+      An *inversion* is a pair of indices (i, j) where (i < j) and `A[i] > A[j]` are both true (with `0 <= i, j, < n`, using 0-based index).  
+      Given `A` as input, write a method that counts and returns the number of inversions in `A`.
+      
+   - Examples
+   
+     When `A = [1, 2, 3]`: There are no inversions. The answer is 0.
+     When `A = [20, 10]`: There is one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.
+     When `A = [20, 10, 30]`: There is still one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.
+     When `A = [30, 20, 10]`: There are three inversions: `(0, 1)`, `(0, 2)`, and `(1, 2)`.
+     
+   - Implementations and Tests
+      In `Task2.java` (under `edu.usfca.cs673` package), you'll find a blank method, which should return the correct answer, given an array of distinct integers.
+      Try to solve this problem with an efficient algorithm.
+      In `TestTask2.java` you'll find a few unit tests which you can utilize to check correctness of your solution.
  - Task 3: Counting (combinatorics)
+   - Description
+   - Examples
+   - Implementations and Tests
  - Task 4: Probability
+   - Description
+   - Examples
+   - Implementations and Tests
 
 
 # References (Discrete Math)
