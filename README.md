@@ -25,9 +25,9 @@
       
    - Examples
    
-     When `A = [1, 2, 3]`: There are no inversions. The answer is 0.
-     When `A = [20, 10]`: There is one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.
-     When `A = [20, 10, 30]`: There is still one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.
+     When `A = [1, 2, 3]`: There are no inversions. The answer is 0.  
+     When `A = [20, 10]`: There is one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.  
+     When `A = [20, 10, 30]`: There is still one inversion, `(0, 1)` as 0 < 1 and `A[0] > A[1]`.  
      When `A = [30, 20, 10]`: There are three inversions: `(0, 1)`, `(0, 2)`, and `(1, 2)`.
      
    - Implementations and Tests
