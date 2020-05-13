@@ -48,7 +48,7 @@
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
-   In `Task3.java`, you'll find a  method (`getNumberOfTeamFormations()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 100`).  
+   In `Task3.java`, you'll find a  method (`getNumberOfTeamFormations()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 30`).  
    In `TestTask3.java` you'll find a few unit tests (with correct answers for some values of `n`).  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
