@@ -3,11 +3,15 @@
    - Let's say you need to climb a staircase that has `n` steps (`n >= 1`). 
    - You can climb either 1 step or 2 steps at a time. 
    - You're wondering in how many different ways you can climb up the `n` steps to the top.
-   - Example 1: When `n = 1`: You can take 1 step to reach the top, and the answer is 1.
-   - Example 2: When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.
-   - Example 3: When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.
-   - Example 4: When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.
-   - In `Task1.java` (under `edu.usfca.cs673` package), 
+   - Examples
+     - Example 1: When `n = 1`: You can take 1 step to reach the top, and the answer is 1.
+     - Example 2: When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.
+     - Example 3: When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.
+     - Example 4: When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.
+   - In `Task1.java` (under `edu.usfca.cs673` package), you'll find two blank methods, which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`). 
+   - Try to solve this problem once iteratively and once recursively.
+   - In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).
+   - Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
  - Task 2: Counting Inversions
  - Task 3: Counting (combinatorics)
  - Task 4: Probability
