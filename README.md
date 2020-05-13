@@ -1,3 +1,10 @@
+# Topics from Data Structures
+- Sorting Algorithms
+  - Merge Sort
+  - Quicksort
+- Recursion
+  - Binary Search
+  - Fibonacci Number
 
 # Topics from Discrete Math
 
@@ -31,10 +38,3 @@
   - Reference **DS**: "A Course in Discrete Structures" by Pass and Tseng. [link](https://courses.cs.cornell.edu/cs2800/2017sp/handouts/pass_tseng_discmath.pdf)
   - Reference **MCS**: "Mathematics for Computer Science" (MCS) by Lehman, Leighton, and Meyer. [link](https://courses.cs.cornell.edu/cs2800/2017fa/handouts/mcs.pdf)
 
-# Topics from Data Structures
-- Sorting Algorithms
-  - Merge Sort
-  - Quicksort
-- Recursion
-  - Binary Search
-  - Fibonacci Number
