@@ -15,11 +15,14 @@
     - Reference (DS): Claim 2.2
   - Proof by contradiction 
     - Reference (DS): Claim 2.2, Theorem 2.3, and Theorem 2.4
+    - Reference (MCS): Section 1.8
   - Proof by cases and counterexamples
     - Reference (DS): Claim 2.5, Claim 2.6, Claim 2.7, and Claim 2.8
     - Reference (DS, optional): Theorem 2.9 and Theorem 2.10
+    - Reference (MCS): Section 1.7
   - Proof by induction
-    - Reference (DS): Claim 2.11, Claim 2.12, and Claim 2.13 (Note: the statement in Claim 2.12 contains a typo, as the RHS should be `2^{|S|}`, which means that the term on RHS is a power of 2 whose exponent is `|S|`.)
+    - Reference (DS): Claim 2.11, Claim 2.12, and Claim 2.13 
+    (Note: the statement in Claim 2.12 contains a typo, as the RHS should be `2^{|S|}`, which means that the term on RHS is a power of 2 whose exponent is `|S|`.)
     - Reference (DS): Theorem 2.17 and Theorem 2.18.
     - Reference (DS): Claim 2.19 (strong induction)
     - Reference (DS, optional): Theorem 2.14, Theorem 2.15, and Theorem 2.16
