@@ -43,12 +43,12 @@
 
 - Examples
    
-   When `n = 1`: There are two students, say `A` and `B`. We can divide them into `[A]` and `[B]` (hence, the answer is 1).
-   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3.
+   When `n = 1`: There are two students, say `A` and `B`. We can divide them into `[A]` and `[B]` (hence, the answer is 1).  
+   When `n = 2`: There are four students, say `A, B, C, D`. We can do: `[A, B], [C, D]`, `[A, C], [B, D]`, and `[A, D], [B, C]`. The answer is 3.  
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
-   In `Task3.java`, you'll find a  method (`getNumberOfNiceBinaryStrings()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
+   In `Task3.java`, you'll find a  method (`getNumberOfTeamFormations()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 100`).  
    In `TestTask3.java` you'll find a few unit tests (with correct answers for some values of `n`).  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
