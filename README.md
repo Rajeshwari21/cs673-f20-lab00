@@ -1,3 +1,8 @@
+# Coding Exercises
+
+There are four coding exercises below, which you can solve in preparation for taking CS673.
+
+
 ### Task 1: Climbing Steps
 - Description
 
@@ -69,7 +74,15 @@
 - Implementations and Tests
 
 
-# References (Discrete Math)
+# Review of Discrete Math
+
+Note that CS673 focuses on designing and analyzing algorithms, rather than implementing them.
+
+As such, it is important for you to review some of the materials from Discrete Math.
+
+Relevant references are provided below, which you should take a look before the beginning for the fall semester.
+
+We will quickly review these materials (during the first week), and the course will assume that you are familiar with these topics, after the first week.
 
 Below, you will find two (textbook) references (DS and MCS), which are **available online** and **for free**.
 
