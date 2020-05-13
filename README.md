@@ -6,7 +6,7 @@ There are four coding exercises below, which you can solve in preparation for ta
 ### Task 1: Climbing Steps
 - Description
 
-   Let's say you need to climb a staircase that has `n` steps (`n >= 1`).  
+   Let's say you need to climb a staircase that has `n` steps (`1 <= n <= 2020`).  
    You can climb either 1 step or 2 steps at a time.  
    You're wondering in how many different ways you can climb up the `n` steps to the top.  
 - Examples
@@ -17,9 +17,9 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
 - Implementations and Tests
 
-   In [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/), you'll find two blank methods (`getNumberOfWaysRecursive()` and `getNumberOfWaysIterative()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 2020`).  
    Try to solve this problem once iteratively and once recursively.  
-   In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
+   See [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/).
+   See [`TestTask1.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
 ### Task 2: Inversions
@@ -36,15 +36,16 @@ There are four coding exercises below, which you can solve in preparation for ta
   When `A = [30, 20, 10]`: There are three inversions: `(0, 1)`, `(0, 2)`, and `(1, 2)`.
 
 - Implementations and Tests
-   In `Task2.java` (under `edu.usfca.cs673` package), you'll find a blank method, which should return the correct answer, given an array of distinct integers.
-   Try to solve this problem with an efficient algorithm.
-   In `TestTask2.java` you'll find a few unit tests which you can utilize to check correctness of your solution.
+   Try to solve this problem with an efficient algorithm (i.e., better than a quadratic algorithm that's trivial). If you can't solve this in sub-quadratic time, that's OK because we'll study it in CS673. :)
+   See [`Task2.java`](java/student/src/main/java/edu/usfca/cs673/).
+   See [`TestTask2.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
 
 ### Task 3: Counting
 - Description
   
    Suppose we have `2n` students in a class, and we need to divide them into two teams of `n` students each (for a friendly match between the teams).  
-   In how many different ways can we divide them into two teams of the same size?
+   In how many different ways can we divide them into two teams of the same size?  
+   Assume that `1 <= n <= 30`.
 
 - Examples
    
@@ -53,9 +54,8 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
-   In `Task3.java`, you'll find a  method (`getNumberOfTeamFormations()`), which should return the correct answer, given a positive integer `n` (assume that `1 <= n <= 30`).  
-   In `TestTask3.java` you'll find a few unit tests (with correct answers for some values of `n`).  
-   Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
+   See [`Task3.java`](java/student/src/main/java/edu/usfca/cs673/).
+   See [`TestTask3.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
 
 ### Task 4: Probability
 - Description
@@ -72,6 +72,8 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.  
    When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 20/32 = 0.625 is the answer.
 - Implementations and Tests
+   See [`Task4.java`](java/student/src/main/java/edu/usfca/cs673/).
+   See [`TestTask4.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
 
 
 # Review of Discrete Math
