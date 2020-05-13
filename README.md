@@ -21,11 +21,12 @@
     - Reference (DS, optional): Theorem 2.9 and Theorem 2.10
     - Reference (MCS): Section 1.7
   - Proof by induction
-    - Reference (DS): Claim 2.11, Claim 2.12, and Claim 2.13 
-    (Note: the statement in Claim 2.12 contains a typo, as the RHS should be `2^{|S|}`, which means that the term on RHS is a power of 2 whose exponent is `|S|`.)
+    - Reference (DS): Claim 2.11, Claim 2.12, and Claim 2.13     
     - Reference (DS): Theorem 2.17 and Theorem 2.18.
     - Reference (DS): Claim 2.19 (strong induction)
     - Reference (DS, optional): Theorem 2.14, Theorem 2.15, and Theorem 2.16
+    
+    *(Note: the statement in Claim 2.12 contains a typo, as the RHS should be `2^{|S|}`, which means that the term on RHS is a power of 2 whose exponent is `|S|`.)*
 - Counting    
   - Product and Sum Rule
     - Reference (DS): Examples 4.1 - 4.6
