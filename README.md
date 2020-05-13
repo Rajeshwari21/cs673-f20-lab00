@@ -1,10 +1,7 @@
-# Topics from Data Structures
-- Sorting Algorithms
-  - Merge Sort
-  - Quicksort
-- Recursion
-  - Binary Search
-  - Fibonacci Number
+# Coding Exercises
+ - Job Scheduling
+ - Counting Inversions
+ - Stairs
 
 # References (Discrete Math)
 
