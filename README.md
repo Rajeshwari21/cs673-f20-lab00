@@ -55,16 +55,16 @@
 ### Task 4: Probability
 - Description
   
-   Suppose that you have `2n` [fair coins](https://en.wikipedia.org/wiki/Fair_coin), which you toss at the same time. Let `n1` be the number of coins with heads and `n2 = n - n1` be the number of coins with tails.
+   Suppose that you have `n` [fair coins](https://en.wikipedia.org/wiki/Fair_coin), which you toss at the same time. Let `n1` be the number of coins with heads and `n2 = n - n1` be the number of coins with tails.
    Let `p(k)` be the probability that `|n1 - n2| = k`.
    Calculate this probability, given `n` and `k` (assume `0 <= k <= n <= 20`).
    
 - Examples
 
-   When `n = 2, k = 0`: As `k = 0`, we must have one head and one tail. Out of four (equiprobable) outcomes (`HH`, `HT`, `TH`, `TT`), there are two such outcomes -- the answer is 0.5.
-   When `n = 3, k = 0`: This is impossible because `n = 3` (`|n1 - n2|` can get as small as 1, but not 0). The answer is 0.
-   When `n = 4, k = 0`: This means we must have two heads and two tails. Out of sixteen (equiprobable) outcomes, there are six such outcomes, and the answer is 6/16 = 0.375. 
-   When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.
+   When `n = 2, k = 0`: As `k = 0`, we must have one head and one tail. Out of four (equiprobable) outcomes (`HH`, `HT`, `TH`, `TT`), there are two such outcomes -- the answer is 0.5.  
+   When `n = 3, k = 0`: This is impossible because `n = 3` (`|n1 - n2|` can get as small as 1, but not 0). The answer is 0.  
+   When `n = 4, k = 0`: This means we must have two heads and two tails. Out of sixteen (equiprobable) outcomes, there are six such outcomes, and the answer is 6/16 = 0.375.   
+   When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.  
    When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 10/32 = 0.3125 is the answer.
 - Implementations and Tests
 
