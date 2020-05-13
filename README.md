@@ -1,4 +1,4 @@
-### Task 1: Climbing Stairs
+### Task 1: Climbing Steps
 - Description
 
    Let's say you need to climb a staircase that has `n` steps (`n >= 1`).  
@@ -17,7 +17,7 @@
    In `TestTask1.java` you'll find a few unit tests (with correct answers for some values of `n`).  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
-### Task 2: Counting Inversions
+### Task 2: Inversions
 - Description
    You are given an array `A` of `n` *distinct* integers (`1 <= n <= 100`).  
    An *inversion* is a pair of indices (i, j) where (i < j) and `A[i] > A[j]` are both true (with `0 <= i, j, < n`, using 0-based index).  
