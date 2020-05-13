@@ -16,18 +16,18 @@
     - Reference (DS): Theorem 2.17 and Theorem 2.18.
     - Reference (DS): Claim 2.19 (strong induction)
     - Reference (DS, optional): Theorem 2.14, Theorem 2.15, and Theorem 2.16
-    
-    
-  - Read Section 2.1 Basic Proof Techniques in **DS** (see the reference below), pages 13-14.
-    
-    - Proof by induction
-    - Proof by contradiction
-    - Proof of IFF statements
-    - Examples of incorrect proofs?
-- Discrete Math
-    - Combinations & Permutations
-    - Random Variables & Probabilities
-- References
+- Counting    
+  - Product and Sum Rule
+    - Reference (DS): Examples 4.1 - 4.6
+  - Permutations and Combinations
+    - Reference (DS): Definition 4.7, Theorem 4.8, Example 4.9, Definition 4.10, Theorem 4.11, Example 4.12, Example 4.13, and Example 4.14
+- Probability
+  - Random Variables
+    - Reference (DS): Definition 5.25, Definition 5.26, Example 5.27, and Definition 5.28
+  - Expectation and Linearity of Expectation
+    - Reference (DS): Definition 5.29, Claim 5.30, Example 5.31, and Example 5.32
+    - Reference (DS): Theorem 5.33 and Example 5.34
+- References (DS and MCS)  
   - Reference **DS**: "A Course in Discrete Structures" by Pass and Tseng. [link](https://courses.cs.cornell.edu/cs2800/2017sp/handouts/pass_tseng_discmath.pdf)
   - Reference **MCS**: "Mathematics for Computer Science" (MCS) by Lehman, Leighton, and Meyer. [link](https://courses.cs.cornell.edu/cs2800/2017fa/handouts/mcs.pdf)
 
