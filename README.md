@@ -6,11 +6,12 @@
   - Binary Search
   - Fibonacci Number
 
-# Topics from Discrete Math
+# References for Review of Discrete Math
 
-Below, you will find two textbook references (DS and MCS), which are freely available online.
+Below, you will find two (textbook) references (DS and MCS), which are freely available online.
 
-You do NOT have to read the entire textbooks, but you will find the following references useful.
+You do NOT have to read the entire references, but you will find them useful for preparing for CS673.
+
 
 - Mathematical Proofs
   - Direct Proof 
