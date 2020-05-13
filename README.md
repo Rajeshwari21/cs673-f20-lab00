@@ -2,6 +2,9 @@
  - Job Scheduling
  - Counting Inversions
  - Stairs
+ - Counting (combinatorics)
+ - Probability
+
 
 # References (Discrete Math)
 
