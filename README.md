@@ -7,8 +7,10 @@
 
 ## Contents
 
-- **Coding Exercises**: There are 4 simple tasks (with unit tests), which assess your understading of recursive/iterative methods, use of data structures, and basic combinatorics/probability.
-- **Quiz Questions**: These quiz-style questions are intended to assess your understanding of discrete math in general. 
-
+- **Coding Exercises**: There are 4 simple tasks (with unit tests), which assess your understading of recursive/iterative methods, use of data structures, and basic combinatorics/probability.  
 Link: [Coding Exercises](README-coding.md)
-Link: [Quiz Questions](README-quiz.md)
+
+- **Quiz Questions**: These quiz-style questions are intended to assess your understanding of discrete math in general.  
+Link: [Quiz Questions](README-Quiz.md)
+
+
