@@ -55,8 +55,8 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
-   See [`Task3.java`](java/student/src/main/java/edu/usfca/cs673/).
-   See [`TestTask3.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
+   See [`Task3.java`](java/student/src/main/java/edu/usfca/cs673/).  
+   See [`TestTask3.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
 
 ### Task 4: Probability
 - Description
@@ -73,8 +73,9 @@ There are four coding exercises below, which you can solve in preparation for ta
    When `n = 4, k = 4`: This means either we have all tails or all heads. The answer is 2/16 = 0.125.  
    When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 20/32 = 0.625 is the answer.
 - Implementations and Tests
-   See [`Task4.java`](java/student/src/main/java/edu/usfca/cs673/).
-   See [`TestTask4.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
+
+   See [`Task4.java`](java/student/src/main/java/edu/usfca/cs673/).  
+   See [`TestTask4.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
 
 
 # Review of Discrete Math
