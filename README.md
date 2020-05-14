@@ -1,11 +1,15 @@
+## Purpose
+
+- This assignment helps you review some of the basic concepts from Discrete Math / Data Structures course(s) that you may have taken elsewhere than USF.
+- It's strongly recommended that you attempt this assignment before the beginning of the fall semester, so as for you to gauge what you will need to review before the class (CS673) begins.
+- If you can't solve or answer some of the questions, that's OK, but knowing which one(s) you can't solve/answer will be helpful for you so that you can focus on a specific area.
+
+
 ## Contents
 
-This starter code helps you review some of the basic concepts from Discrete Math / Data Structures course(s) that you may have taken elsewhere than USF.
-
-It's strongly recommended that you attempt this assignment before the beginning of the fall semester, so as for you to gauge what you will need to review before the class (CS673) begins.
-
-If you can't solve or answer some of the questions, that's OK, but knowing which one(s) you can't solve/answer will be helpful for you so that you can focus on a specific area.
-
+- **Coding Exercises**: There are 4 simple tasks (with unit tests), which assess your understading of recursive/iterative methods, use of data structures, and basic combinatorics/probability.
+- **Quiz Questions**: These quiz-style questions are intended to assess your understanding of discrete math in general.
+- **References**: There are two (free) textbooks and references to some of the chapters/sections in those books. If you can't answer a specific question in this assignment, reviewing these materials can be very useful. 
 
 ## Coding Exercises
 
@@ -96,18 +100,17 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
 - Task 4: If `n` could be as large as `10^5`, would your solution still work fast enough? (for the sake of simplicity, let's not worry about precision here.)
 
 
-# Review of Discrete Math
+## Quiz Questions
 
-Note that CS673 focuses on designing and analyzing algorithms, rather than implementing them.
 
-As such, it is important for you to review some of the materials from Discrete Math.
+## References
 
-Relevant references are provided below, which you should take a look before the beginning for the fall semester.
-
+Note that CS673 focuses on designing and analyzing algorithms, rather than implementing them.  
+As such, it is important for you to review some of the materials from Discrete Math.  
+Relevant references are provided below, which you should take a look before the beginning for the fall semester.  
 We will quickly review these materials (during the first week), and the course will assume that you are familiar with these topics, after the first week.
 
-Below, you will find two (textbook) references (DS and MCS), which are **available online** and **for free**.
-
+Below, you will find two (textbook) references (DS and MCS), which are **available online** and **for free**.  
 You do NOT have to read the entire references, but you will find them useful in preparation for taking CS673.
 
 - Mathematical Proofs
