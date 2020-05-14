@@ -1,4 +1,13 @@
-# Coding Exercises
+## Contents
+
+This starter code helps you review some of the basic concepts from Discrete Math / Data Structures course(s) that you may have taken elsewhere than USF.
+
+It's strongly recommended that you attempt this assignment before the beginning of the fall semester, so as for you to gauge what you will need to review before the class (CS673) begins.
+
+If you can't solve or answer some of the questions, that's OK, but knowing which one(s) you can't solve/answer will be helpful for you so that you can focus on a specific area.
+
+
+## Coding Exercises
 
 There are four coding exercises below, which you can solve in preparation for taking CS673.
 
