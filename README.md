@@ -2,6 +2,8 @@
 
 There are four coding exercises below, which you can solve in preparation for taking CS673.
 
+### Task 0: IDE Setup
+Here's a step-by-step guide to using intelliJ and Gradle to import this starter code: [README](https://github.com/hadenlee/cs673-f20-lab00/blob/master/intelliJ/README.md)
 
 ### Task 1: Climbing Steps
 - Description
