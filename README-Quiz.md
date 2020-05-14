@@ -1,7 +1,9 @@
 ## Quiz Questions
 
 1. Counting (Combinatorics)
-   - TBA
+   - Recall the "Inversions" problem from [coding exercises](README-coding.md#task-2-inversions).  
+     Let `f(n)` be the maximum number of inversions foudn in an array of `n` distinct integers.  
+     Express `f(n)` as a function of `n`.
 1. Probability (Random Variables and Expectation)
    - Questions:  
     ![quiz/rv.png](quiz/rv.png)  
