@@ -7,7 +7,15 @@
    - Consider an undirected, [simple graph](https://mathworld.wolfram.com/SimpleGraph.html) `G = (V, E)` with `n` vertices in `V`.  
      Let `m` be the number of edges in this graph (`m = |E|`).  
      What is the maximum possible value of `m`, in terms of `n`?
-   
+     
+1. Proof by contradiction
+   - Prove that there are infinitely [many primes](https://en.wikipedia.org/wiki/Prime_number) (using proof by contradiction would be the easiest).  
+     (A sample proof can be found in the [same page](https://en.wikipedia.org/wiki/Prime_number#Infinitude).)  
+
+1. Proof by contradiction
+   - Prove that there are infinitely [many primes](https://en.wikipedia.org/wiki/Prime_number) (using proof by contradiction would be the easiest).  
+     (A proof can be found in the [same page](https://en.wikipedia.org/wiki/Prime_number#Infinitude).)  
+
 1. Probability (Random Variables and Expectation)
    - Questions:  
       ![quiz/rv.png](quiz/rv.png)  
@@ -18,7 +26,8 @@
 
 ## References
 
-There are two (free) textbooks (**DS** and **MCS**, see the last bullet point) and references to some of the chapters/sections in those books.  
+There are two (free) textbooks (**DS** and **MCS**, see the last bullet point) and references to some of the chapters/sections in those books. 
+Another reference (a free website, **DM**) contains many examples and friendly explanations.  
 You do NOT have to read the entire references, but you will find them useful in preparation for taking CS673.  
 If you can't answer a certain quiz question, reviewing these materials can be very useful. 
 
@@ -60,4 +69,4 @@ If you can't answer a certain quiz question, reviewing these materials can be ve
 - References (DS and MCS)  
   - Reference **DS**: "A Course in Discrete Structures" by Pass and Tseng. [link](https://courses.cs.cornell.edu/cs2800/2017sp/handouts/pass_tseng_discmath.pdf)
   - Reference **MCS**: "Mathematics for Computer Science" (MCS) by Lehman, Leighton, and Meyer. [link](https://courses.cs.cornell.edu/cs2800/2017fa/handouts/mcs.pdf)
-
+  - Reference **DM**: Discrete Mathematics: An Open Introduction by Levin. [link](http://discrete.openmathbooks.org/dmoi2/dmoi.html)
