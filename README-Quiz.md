@@ -8,20 +8,27 @@
      Let `m` be the number of edges in this graph (`m = |E|`).  
      What is the maximum possible value of `m`, in terms of `n`?
      
-1. Proof by contradiction
-   - Prove that there are infinitely [many primes](https://en.wikipedia.org/wiki/Prime_number) (using proof by contradiction would be the easiest).  
-     (A sample proof can be found in the [same page](https://en.wikipedia.org/wiki/Prime_number#Infinitude).)  
-
-1. Proof by contradiction
-   - Prove that there are infinitely [many primes](https://en.wikipedia.org/wiki/Prime_number) (using proof by contradiction would be the easiest).  
-     (A proof can be found in the [same page](https://en.wikipedia.org/wiki/Prime_number#Infinitude).)  
-
 1. Probability (Random Variables and Expectation)
    - Questions:  
       ![quiz/rv.png](quiz/rv.png)  
       See [this supplementary video](https://www.youtube.com/watch?v=Gr1WYiguiRM) for answers.
 
+1. Proof by contradiction
+   - Prove that there are infinitely [many primes](https://en.wikipedia.org/wiki/Prime_number) (using proof by contradiction would be the easiest).  
+     (A sample proof can be found in the [same page](https://en.wikipedia.org/wiki/Prime_number#Infinitude).)  
 
+1. Proof by cases
+   - Prove that for any integer `n`, the number `(n*n*n - n) = (n^3 - n)` is even.
+     (A sample proof can be found [here](http://discrete.openmathbooks.org/dmoi2/sec_logic-proofs.html#subsection-35), Example 3.2.11.)
+
+1. Proof by direct proof & counterexample
+   - Prove that for all integers `n`, if `n` is even then `8n` is even.
+   - Disprove the converse of the earlier statement. That is, find a counterexample to the statement: if `8n` is even, then `n` is even.  
+     (Answers can be found [here](http://discrete.openmathbooks.org/dmoi2/sec_logic-proofs.html#exercises_logic-proofs), Exercise 2.)
+
+1. Proof by contrapositive
+   - Prove that for all integeres `n`, if `n^2` is even then `n` is even (by proving the contrapositive of the statement).  
+    (Answers can be found [here](http://discrete.openmathbooks.org/dmoi2/sec_logic-proofs.html#subsection-32), Example 3.2.4.)
 
 
 ## References
