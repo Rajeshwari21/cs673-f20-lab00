@@ -4,6 +4,10 @@
    - Recall the "Inversions" problem from [coding exercises](README-coding.md#task-2-inversions).  
      Let `f(n)` be the maximum number of inversions foudn in an array of `n` distinct integers.  
      Express `f(n)` as a function of `n`.
+   - Consider an undirected, [simple graph](https://mathworld.wolfram.com/SimpleGraph.html) `G = (V, E)` with `n` vertices in `V`.  
+     Let `m` be the number of edges in this graph (`m = |E|`).  
+     What is the maximum possible value of `m`, in terms of `n`?
+   
 1. Probability (Random Variables and Expectation)
    - Questions:  
       ![quiz/rv.png](quiz/rv.png)  
