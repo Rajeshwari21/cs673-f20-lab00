@@ -6,7 +6,8 @@
      Express `f(n)` as a function of `n`.
 1. Probability (Random Variables and Expectation)
    - Questions:  
-    See [this supplementary video](https://www.youtube.com/watch?v=Gr1WYiguiRM) for answers.
+      ![quiz/rv.png](quiz/rv.png)  
+      See [this supplementary video](https://www.youtube.com/watch?v=Gr1WYiguiRM) for answers.
 
 
 
