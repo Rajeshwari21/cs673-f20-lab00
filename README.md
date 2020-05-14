@@ -80,6 +80,12 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
    See [`Task4.java`](java/student/src/main/java/edu/usfca/cs673/).  
    See [`TestTask4.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
 
+### Task 5: Extra Stuff (optional)
+- Task 1: If `n` could be as large as `10^9`, would your solution still work fast enough?
+- Task 2: If `n` could be as large as `10^6`, would your solution still work fast enough?
+- Task 3: If `n` could be as large as `10^5`, would your solution still work fast enough?
+- Task 4: If `n` could be as large as `10^5`, would your solution still work fast enough? (for the sake of simplicity, let's not worry about precision here.)
+
 
 # Review of Discrete Math
 
