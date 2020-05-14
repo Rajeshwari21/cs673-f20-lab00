@@ -3,7 +3,8 @@
 1. Counting (Combinatorics)
    - TBA
 1. Probability (Random Variables and Expectation)
-   - ![quiz/rv.png](quiz/rv.png)  
+   - Questions:  
+    ![quiz/rv.png](quiz/rv.png)  
     See [this supplementary video](https://www.youtube.com/watch?v=Gr1WYiguiRM) for answers.
 
 
