@@ -36,8 +36,9 @@ There are four coding exercises below, which you can solve in preparation for ta
   When `A = [30, 20, 10]`: There are three inversions: `(0, 1)`, `(0, 2)`, and `(1, 2)`.
 
 - Implementations and Tests
-   Try to solve this problem with an efficient algorithm (i.e., better than a quadratic algorithm that's trivial). If you can't solve this in sub-quadratic time, that's OK because we'll study it in CS673. :)
-   See [`Task2.java`](java/student/src/main/java/edu/usfca/cs673/).
+
+   Try to solve this problem with an efficient algorithm (i.e., better than a quadratic algorithm that's trivial). If you can't solve this in sub-quadratic time, that's OK because we'll study it in CS673. :)  
+   See [`Task2.java`](java/student/src/main/java/edu/usfca/cs673/).  
    See [`TestTask2.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
 
 ### Task 3: Counting
