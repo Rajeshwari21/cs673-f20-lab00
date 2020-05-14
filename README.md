@@ -1,8 +1,8 @@
 ## Purpose
 
 - This assignment helps you review some of the basic concepts from Discrete Math / Data Structures course(s) that you may have taken at USF or elsewhere.
-- It's strongly recommended that you attempt this assignment before the beginning of the fall semester, so as for you to gauge what you will need to review before the class (CS673) begins.
-- If you can't solve or answer some of the questions, that's OK, but knowing which one(s) you can't solve/answer will be helpful for you so that you can focus on a specific area.
+- It's strongly recommended that you attempt this assignment before the beginning of the fall semester, in order for you to check what you will need to review before the class (CS673) begins.
+- If you can't solve or answer some of the questions, that's OK! This will help you focus on reviewing specific topics.
 
 
 ## Contents
