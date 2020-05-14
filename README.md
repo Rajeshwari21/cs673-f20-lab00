@@ -18,8 +18,8 @@ There are four coding exercises below, which you can solve in preparation for ta
 - Implementations and Tests
 
    Try to solve this problem once iteratively and once recursively.  
-   See [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/).
-   See [`TestTask1.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
+   See [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/).  
+   See [`TestTask1.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
 ### Task 2: Inversions
