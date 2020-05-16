@@ -18,6 +18,6 @@ Note that this starter code has been tested with Java 1.8 and Gradle 4.10.3, alt
 8. Lastly, right-click on `student/src/test/java` directory from the Package Explorer as shown below.
 If you see `Run 'All Tests'` in the menu, you are all set -- you can now run all unit tests (which means intelliJ has successfully imported your Java project). Now it's time to implement the methods in Task1-Task4 Java files. 
 ![06-run-all-tests.png](06-run-all-tests.png)
-9. If you run into any trouble while importing a Java project, make sure you search on Google and StackOverflow.
-Learning how to search and troubleshoot is an important skill to have, especially as a CS student.
-
+9. If you run into any trouble while importing a Java project, make sure you search on Google and StackOverflow.  
+Learning how to search and troubleshoot is an important skill to have, especially as a CS student.  
+Here's another [step-by-step guide](https://www.jetbrains.com/help/idea/work-with-gradle-projects.html) from jetbrains.
