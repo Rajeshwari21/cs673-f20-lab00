@@ -2,8 +2,11 @@
 
 There are four coding exercises below, which you can solve in preparation for taking CS673.
 
-### Task 0: IDE Setup
-Here's a step-by-step guide to using intelliJ and Gradle to import this starter code: [README](https://github.com/hadenlee/cs673-f20-lab00/blob/master/intelliJ/README.md)
+### Task 0: IDE Setup & Github Actions
+- Here's a step-by-step guide to using intelliJ and Gradle to import this starter code: [README](https://github.com/hadenlee/cs673-f20-lab00/blob/master/intelliJ/README.md)  
+- Note that in your remote Github repository, you can visit `Actions` which will simply run all unit tests on their server.   
+As such, you can push your commits to the remote repo, and wait for the server to 'grade' your commits. (Simply click on the `Actions` tab at the top when you visit your remote repository's main page.)
+- Not familiar with Github and/or Github Actions? Learn more about them [here](https://missing.csail.mit.edu/2020/version-control/) and [here](https://help.github.com/en/actions/getting-started-with-github-actions/about-github-actions).
 
 ### Task 1: Climbing Steps
 - Description
@@ -20,8 +23,8 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
 - Implementations and Tests
 
    Try to solve this problem once iteratively and once recursively.  
-   See [`Task1.java`](java/student/src/main/java/edu/usfca/cs673/).  
-   See [`TestTask1.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
+   See [`Task1.java`](src/main/java/edu/usfca/cs673/).  
+   See [`TestTask1.java`](src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
 ### Task 2: Inversions
@@ -40,8 +43,8 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
 - Implementations and Tests
 
    Try to solve this problem with an efficient algorithm (i.e., better than a quadratic algorithm that's trivial). If you can't solve this in sub-quadratic time, that's OK because we'll study it in CS673. :)  
-   See [`Task2.java`](java/student/src/main/java/edu/usfca/cs673/).  
-   See [`TestTask2.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.
+   See [`Task2.java`](src/main/java/edu/usfca/cs673/).  
+   See [`TestTask2.java`](src/test/java/edu/usfca/cs673/) for unit tests with more examples.
 
 ### Task 3: Counting
 - Description
@@ -57,8 +60,8 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
    When `n = 3`: There are six students (`A`-`F`). The answer is 10: `[A, B, C], [D, E, F]`, `[A, B, D], [C, E, F]`, `[A, B, E], [C, D, F]`, `[A, B, F], [C, D, E]`, `[A, C, D], [B, E, F]`, `[A, C, E], [B, D, F]`, `[A, C, F], [B, D, E]`, `[A, D, E], [B, C, F]`, `[A, D, F], [B, C, E]`, and `[A, E, F], [B, C, D]`.
 - Implementations and Tests
 
-   See [`Task3.java`](java/student/src/main/java/edu/usfca/cs673/).  
-   See [`TestTask3.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
+   See [`Task3.java`](src/main/java/edu/usfca/cs673/).  
+   See [`TestTask3.java`](src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
    Note that the answer can easily become large, so you should return the answer modulo 99991 (i.e., `return (answer) % MOD` in your code).
 
 ### Task 4: Probability
@@ -77,8 +80,8 @@ Here's a step-by-step guide to using intelliJ and Gradle to import this starter 
    When `n = 5, k = 1`: This means we get two heads and three tails OR three heads and two tails. 20/32 = 0.625 is the answer.
 - Implementations and Tests
 
-   See [`Task4.java`](java/student/src/main/java/edu/usfca/cs673/).  
-   See [`TestTask4.java`](java/student/src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
+   See [`Task4.java`](src/main/java/edu/usfca/cs673/).  
+   See [`TestTask4.java`](src/test/java/edu/usfca/cs673/) for unit tests with more examples.  
 
 ### Task 5: Extra Stuff (optional)
 - Task 1: If `n` could be as large as `10^9`, would your solution still work fast enough?

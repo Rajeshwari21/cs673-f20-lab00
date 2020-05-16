@@ -6,7 +6,7 @@
      Express `f(n)` as a function of `n`.
    - Consider an undirected, [simple graph](https://mathworld.wolfram.com/SimpleGraph.html) `G = (V, E)` with `n` vertices in `V`.  
      Let `m` be the number of edges in this graph (`m = |E|`).  
-     What is the maximum possible value of `m`, in terms of `n`?
+     What is the maximum possible value for `m`, in terms of `n`?
      
 1. Probability (Random Variables and Expectation)
    - Questions:  
