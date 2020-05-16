@@ -2,7 +2,7 @@
 
 There are four coding exercises below, which you can solve in preparation for taking CS673.
 
-### Task 0: IDE Setup
+### Task 0: IDE Setup & Github Actions
 - Here's a step-by-step guide to using intelliJ and Gradle to import this starter code: [README](https://github.com/hadenlee/cs673-f20-lab00/blob/master/intelliJ/README.md)  
 - Note that in your remote Github repository, you can visit `Actions` which will simply run all unit tests on their server.   
 As such, you can push your commits to the remote repo, and wait for the server to 'grade' your commits.
