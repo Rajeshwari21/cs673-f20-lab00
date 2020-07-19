@@ -19,7 +19,7 @@ As such, you can push your commits to the remote repo, and wait for the server t
    When `n = 1`: You can take 1 step to reach the top, and the answer is 1.  
    When `n = 2`: You can either two separate 1-steps or you can take two steps all at once. The answer is 2.  
    When `n = 3`: There are three different ways: `1 + 1 + 1` or `1 + 2` or `2 + 1`.  
-   When `n = 4`: There are four different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1`.  
+   When `n = 4`: There are five different ways: `1 + 1 + 1 + 1` or `1 + 1 + 2` or `1 + 2 + 1` or `2 + 1 + 1` or `2 + 2`.  
 - Implementations and Tests
 
    Try to solve this problem once iteratively and once recursively.  
