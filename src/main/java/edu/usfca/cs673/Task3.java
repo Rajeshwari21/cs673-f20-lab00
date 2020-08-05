@@ -29,7 +29,7 @@ public class Task3 {
       r = n - r;
     }
     for (int i=1; i<= r; i++) {
-      comb *= n - r + i;
+      comb *= (n - r + i);
       comb /= i;
     }
     return comb;

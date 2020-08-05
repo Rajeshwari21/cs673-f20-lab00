@@ -6,38 +6,35 @@ public class Task2 {
 
   public static int getNumberOfInversions(int[] A) {
     int n = A.length, cnt = 0;
-    int inversions = mergeCount(A, 0, n-1);
-    if (inversions > 0) {
-      cnt = inversions;
-    }
+    cnt += getInversionCount(A, 0, n-1);
     return cnt;
   }
 
   /**
-   * Divide the array into left & right sub arrays and get the count of inversions by merging it.
+   * Divide the array into left & right sub arrays and get the inversion count.
    *
    * @param array
    *  Initial array.
    * @param left
-   *  Star index of array.
+   *  Start index of array.
    * @param right
    *  End index of array.
    * @return int
    *  Number of inversions.
    */
-  public static int mergeCount(int[] array, int left, int right) {
+  public static int getInversionCount(int[] array, int left, int right) {
     int count = 0;
     if (left < right) {
       int mid = (left + right) / 2;
-      count += mergeCount(array, left, mid);
-      count += mergeCount(array, mid+1, right);
-      count += mergeSortAndInversionCount(array, left, mid, right);
+      count += getInversionCount(array, left, mid);
+      count += getInversionCount(array, mid+1, right);
+      count += sortAndGetInversionCount(array, left, mid, right);
     }
     return count;
   }
 
   /**
-   * Getting the count of the inversions while performing sort & merge operations in the initial array.
+   * Getting the count of the inversions while performing sort operations.
    *
    * @param arr
    *  Initial array.
@@ -50,11 +47,11 @@ public class Task2 {
    * @return int
    *  Inversion counts while sorting.
    */
-  public static int mergeSortAndInversionCount(int[] arr, int left, int mid, int right) {
+  public static int sortAndGetInversionCount(int[] arr, int left, int mid, int right) {
     int[] leftArray = Arrays.copyOfRange(arr, left, mid+1);
     int[] rightArray = Arrays.copyOfRange(arr, mid+1, right+1);
     int i=0, j=0, k=left, inversionCount =0;
-    while(i<leftArray.length && j<rightArray.length) {
+    while(i < leftArray.length && j < rightArray.length) {
       if (leftArray[i] <= rightArray[j]) {
         arr[k] = leftArray[i];
         i++;
@@ -65,11 +62,11 @@ public class Task2 {
       }
       k++;
     }
-    while (i<leftArray.length) {
+    while (i < leftArray.length) {
       arr[k] = leftArray[i];
       i++; k++;
     }
-    while (j<rightArray.length) {
+    while (j < rightArray.length) {
       arr[k] = rightArray[j];
       j++;
       k++;
